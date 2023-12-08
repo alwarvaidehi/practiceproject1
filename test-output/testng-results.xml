@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="2" total="7" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-08T19:23:33 IST" name="test1" finished-at="2023-12-08T19:23:48 IST" duration-ms="14686">
+    <groups>
+    </groups>
+    <test started-at="2023-12-08T19:23:33 IST" name="BookSwagOnReport" finished-at="2023-12-08T19:23:48 IST" duration-ms="14686">
+      <class name="steps.SearchAndTodaysDealsteps">
+        <test-method is-config="true" signature="setup()[pri:0, instance:steps.SearchAndTodaysDealsteps@50378a4]" started-at="2023-12-08T19:23:33 IST" name="setup" finished-at="2023-12-08T19:23:42 IST" duration-ms="8747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method retried="true" signature="search(java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:steps.SearchAndTodaysDealsteps@50378a4]" started-at="2023-12-08T19:23:42 IST" name="search" data-provider="testdata" finished-at="2023-12-08T19:23:43 IST" duration-ms="157" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beyond The Story: 10-Year Record of BTS\\r\\n]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vijayvel10301@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[group@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assert not same search item expected [BTS BOOK] but found [Beyond The Story: 10-Year Record of BTS\\r\\n]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assert not same search item expected [BTS BOOK] but found [Beyond The Story: 10-Year Record of BTS\\r\\n]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotSame(Assert.java:1573)
+at org.testng.Assert.assertSame(Assert.java:1522)
+at pages.SearchboxPage.searchitem(SearchboxPage.java:34)
+at steps.SearchAndTodaysDealsteps.search(SearchAndTodaysDealsteps.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:steps.SearchAndTodaysDealsteps@50378a4]" started-at="2023-12-08T19:23:43 IST" name="generateTestStatus" finished-at="2023-12-08T19:23:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void steps.SearchAndTodaysDealsteps.search(java.lang.String,java.lang.String,java.lang.String) throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=search status=SKIP method=SearchAndTodaysDealsteps.search(java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:steps.SearchAndTodaysDealsteps@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method retried="true" signature="search(java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:steps.SearchAndTodaysDealsteps@50378a4]" started-at="2023-12-08T19:23:43 IST" name="search" data-provider="testdata" finished-at="2023-12-08T19:23:43 IST" duration-ms="174" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beyond The Story: 10-Year Record of BTS\\r\\n]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vijayvel10301@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[group@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assert not same search item expected [BTS BOOK] but found [Beyond The Story: 10-Year Record of BTS\\r\\n]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assert not same search item expected [BTS BOOK] but found [Beyond The Story: 10-Year Record of BTS\\r\\n]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotSame(Assert.java:1573)
+at org.testng.Assert.assertSame(Assert.java:1522)
+at pages.SearchboxPage.searchitem(SearchboxPage.java:34)
+at steps.SearchAndTodaysDealsteps.search(SearchAndTodaysDealsteps.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:steps.SearchAndTodaysDealsteps@50378a4]" started-at="2023-12-08T19:23:43 IST" name="generateTestStatus" finished-at="2023-12-08T19:23:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void steps.SearchAndTodaysDealsteps.search(java.lang.String,java.lang.String,java.lang.String) throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=search status=SKIP method=SearchAndTodaysDealsteps.search(java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:steps.SearchAndTodaysDealsteps@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method retried="true" signature="search(java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:steps.SearchAndTodaysDealsteps@50378a4]" started-at="2023-12-08T19:23:43 IST" name="search" data-provider="testdata" finished-at="2023-12-08T19:23:43 IST" duration-ms="114" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beyond The Story: 10-Year Record of BTS\\r\\n]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vijayvel10301@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[group@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assert not same search item expected [BTS BOOK] but found [Beyond The Story: 10-Year Record of BTS\\r\\n]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assert not same search item expected [BTS BOOK] but found [Beyond The Story: 10-Year Record of BTS\\r\\n]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotSame(Assert.java:1573)
+at org.testng.Assert.assertSame(Assert.java:1522)
+at pages.SearchboxPage.searchitem(SearchboxPage.java:34)
+at steps.SearchAndTodaysDealsteps.search(SearchAndTodaysDealsteps.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:steps.SearchAndTodaysDealsteps@50378a4]" started-at="2023-12-08T19:23:43 IST" name="generateTestStatus" finished-at="2023-12-08T19:23:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void steps.SearchAndTodaysDealsteps.search(java.lang.String,java.lang.String,java.lang.String) throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=search status=SKIP method=SearchAndTodaysDealsteps.search(java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:steps.SearchAndTodaysDealsteps@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method signature="search(java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:steps.SearchAndTodaysDealsteps@50378a4]" started-at="2023-12-08T19:23:43 IST" name="search" data-provider="testdata" finished-at="2023-12-08T19:23:43 IST" duration-ms="108" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beyond The Story: 10-Year Record of BTS\\r\\n]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vijayvel10301@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[group@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assert not same search item expected [BTS BOOK] but found [Beyond The Story: 10-Year Record of BTS\\r\\n]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assert not same search item expected [BTS BOOK] but found [Beyond The Story: 10-Year Record of BTS\\r\\n]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotSame(Assert.java:1573)
+at org.testng.Assert.assertSame(Assert.java:1522)
+at pages.SearchboxPage.searchitem(SearchboxPage.java:34)
+at steps.SearchAndTodaysDealsteps.search(SearchAndTodaysDealsteps.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:steps.SearchAndTodaysDealsteps@50378a4]" started-at="2023-12-08T19:23:43 IST" name="generateTestStatus" finished-at="2023-12-08T19:23:43 IST" duration-ms="406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void steps.SearchAndTodaysDealsteps.search(java.lang.String,java.lang.String,java.lang.String) throws java.net.MalformedURLException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=search status=FAILURE method=SearchAndTodaysDealsteps.search(java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:steps.SearchAndTodaysDealsteps@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method signature="dealstoday()[pri:50, instance:steps.SearchAndTodaysDealsteps@50378a4]" started-at="2023-12-08T19:23:43 IST" name="dealstoday" finished-at="2023-12-08T19:23:48 IST" duration-ms="4086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dealstoday -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:steps.SearchAndTodaysDealsteps@50378a4]" started-at="2023-12-08T19:23:48 IST" name="generateTestStatus" finished-at="2023-12-08T19:23:48 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void steps.SearchAndTodaysDealsteps.dealstoday() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=dealstoday status=SUCCESS method=SearchAndTodaysDealsteps.dealstoday()[pri:50, instance:steps.SearchAndTodaysDealsteps@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method is-config="true" signature="generateReports()[pri:0, instance:steps.SearchAndTodaysDealsteps@50378a4]" started-at="2023-12-08T19:23:48 IST" name="generateReports" finished-at="2023-12-08T19:23:48 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+      </class> <!-- steps.SearchAndTodaysDealsteps -->
+      <class name="steps.SharedStep">
+        <test-method is-config="true" signature="InitalizeExtentReport()[pri:0, instance:steps.SharedStep@4b8d604b]" started-at="2023-12-08T19:23:33 IST" name="InitalizeExtentReport" finished-at="2023-12-08T19:23:33 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitalizeExtentReport -->
+        <test-method is-config="true" signature="getnameMethod(org.testng.ITestContext)[pri:0, instance:steps.SharedStep@4b8d604b]" started-at="2023-12-08T19:23:33 IST" name="getnameMethod" finished-at="2023-12-08T19:23:33 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10f477e2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getnameMethod -->
+        <test-method is-config="true" signature="generateReports()[pri:0, instance:steps.SharedStep@4b8d604b]" started-at="2023-12-08T19:23:48 IST" name="generateReports" finished-at="2023-12-08T19:23:49 IST" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+      </class> <!-- steps.SharedStep -->
+    </test> <!-- BookSwagOnReport -->
+  </suite> <!-- test1 -->
+</testng-results>
